@@ -1,3 +1,5 @@
+# use for Maximum subarray Sum in O(n):
+
 def kadane(arr):
     if(len(arr)==0):
         return -1

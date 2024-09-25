@@ -1,3 +1,5 @@
+# Majority element: which eleement appears more then n/2 time.
+
 def moores(arr):
     maj_index=0
     count=1
