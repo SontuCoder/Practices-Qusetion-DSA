@@ -1,3 +1,5 @@
+#IO: [2,1,3,5,2,5,66,5,3,3,1,2,4,3], x=2,y=3 
+#OP: 2
 
 def sort_dist(arr,a,b):
     global_dist=999999
