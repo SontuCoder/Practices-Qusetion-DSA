@@ -12,7 +12,6 @@ def uniq(arr1, arr2):
         else:
             arr3.append(arr2[j])
             j+=1
-
     while(i<len(arr1)):
         arr3.append(arr1[i])
         i+=1
