@@ -10,7 +10,7 @@ def unique(a):
         else:
             li.append(b[i])
         i+=1
-    return 1
+    return li
 
 a=[1,2,2,3,3,3]
 print(unique(a))
