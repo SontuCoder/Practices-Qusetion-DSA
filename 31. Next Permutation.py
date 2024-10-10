@@ -41,7 +41,6 @@ def next(nums):
                 break
             j-=1
     k=len(nums)-1
-    print(i,k)
     while(i<k):
         nums[i],nums[k]=nums[k],nums[i]
         k-=1
