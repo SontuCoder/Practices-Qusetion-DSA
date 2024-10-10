@@ -3,7 +3,7 @@
 #IO: [1,2,3,1,3,6,6] => [1,3,6]
 
 def duplicate(arr):
-    a=[0]*len(arr)
+    a=[0]*(max(arr)+1)
     for i in arr:
         a[i]+=1
     dup=[]
@@ -12,5 +12,5 @@ def duplicate(arr):
             dup.append(i)
     return dup
 
-arr=[1,2,3,1,3,6,6]
+arr=[1,2,3,1,3,6,9]
 print(duplicate(arr))

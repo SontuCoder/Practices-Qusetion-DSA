@@ -1,17 +1,18 @@
+#  Superior Array elements:
+#  In an array a superior element is one which is greater than all elements to its right.
+
 # In1: [16,17,4,3,5,2]
 # out1: [17,5,2]
 
-# Leader element: whose value is greater than of all its right values.
 
-def lead(arr):
-    maximum=arr[len(arr)-1]
+def super(arr):
+    maximum=arr[-1]
     leader=[maximum]
     for i in range(len(arr)-2,0,-1):
         if(arr[i]>maximum):
             maximum=arr[i]
             leader.insert(0,maximum)
     return leader
-
 
 
 n = int(input("Enter the number of element: "))
@@ -21,4 +22,4 @@ for i in range(n):
 print("Array:-")
 print(arr)
 print("The leading elements:-")
-print(lead(arr))
+print(super(arr))

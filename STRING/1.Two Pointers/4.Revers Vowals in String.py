@@ -4,8 +4,6 @@
 # Complete it in O(n) time
 
 
-
-
 def rev_vow(string):
     s=list(string)
     low_vow="aeiouAEIOU"

@@ -24,6 +24,7 @@ def pal(s):
     for i in b:
         if(ord(i)>96 and ord(i)<123):
             li.append(i)
+    print(li)
     j=0
     k=len(li)-1
     while(j<k):
@@ -34,5 +35,5 @@ def pal(s):
     return "true"
 
 
-s = "A man, a plan, a canal: Panama"
-print(pal("race a car"))
+s = "race a car"
+print(pal(s))
