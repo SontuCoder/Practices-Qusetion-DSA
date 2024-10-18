@@ -1,12 +1,9 @@
 
 def sort_2nd(arr):
-    ind=arr.index(max(arr))
-    max_2nd=arr[0]
-    for i in range(1,len(arr)):
-        if((max_2nd < arr[i]) and i != ind):
-            max_2nd = arr[i]
-    return max_2nd
+    for i in range(len(arr)-1,-1,-1):
+        if(arr[i]-1==(len(arr)-1-i)):
+            return arr[i]
+    return -1
 
-
-arr=[1,3,53,2,4,6,5,3,2,]
+arr=[0,1,3,5,6]
 print(sort_2nd(arr))
