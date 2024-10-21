@@ -20,7 +20,6 @@ def check(s):
             count[1]=1
         if(s[i]==" " or s[i]=="/"):
             count[3]=1
-    print(count)
     for i in range(3):
         if(count[i]==0):
             return False
