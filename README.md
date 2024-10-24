@@ -6,7 +6,8 @@
 </head>
 <body>
 
-<h1>Problem Solving</h1>
+<h1>Problem Solving & DSA</h1>
+
 
 <h2>Problem Source</h2>
 <ul>
@@ -17,7 +18,7 @@
 <h2>Author</h2>
     <ul>
         <li><strong>Solution by</strong>: Subhadip Maity</li>
-        <li><strong>Solution Language</strong>: Python</li>
+        <li><strong>Solution Language</strong>: Python,C</li>
     </ul>
 
 <h2>Problem Types</h2>
@@ -25,6 +26,8 @@
 <ul>
         <li>Array</li>
         <li>String</li>
+        <li>Btree</li>
+        <li>Leet Code top 150 Interview</li>
         <li>Accenture campus Placement</li>
     </ul>
 </body>
