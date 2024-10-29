@@ -64,7 +64,6 @@ def squr_sort2(arr):
             i+=1
             j-=1
         elif((arr[i]**2)<(arr[j]**2)):
-
             nums.insert(0,arr[j]**2)
             j-=1
         else:
