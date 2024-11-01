@@ -135,7 +135,7 @@ int maxlength(struct Node* root) {
     	return combo;
 	} else{
 		if(rightDepth>combo) return rightDepth;
-    	return combo;
+    	return combo; 
 	}
 }
 
