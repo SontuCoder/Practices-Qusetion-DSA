@@ -4,7 +4,6 @@
 # Give one Peak Element.
 
 
-
 def findPeakUtil(arr, low, high, n):
     mid = low + (high - low)/2
     mid = int(mid)

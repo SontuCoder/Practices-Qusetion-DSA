@@ -53,7 +53,7 @@ def squr_sort(arr):
     return nums
 
 
-#Method 4:
+#Method 4: 
 def squr_sort2(arr):
     i=0
     j=len(arr)-1

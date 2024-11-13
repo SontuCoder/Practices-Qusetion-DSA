@@ -20,6 +20,12 @@ def uniq(arr1, arr2):
         j+=1
     return arr3
 
+def unique(arr1,arr2):
+    arr = arr1+arr2
+    return list(set(arr))
+
+
+
 arr1=[1,3,4,5,7]
 arr2=[2,3,5,6]
-print(uniq(arr1,arr2))
+print(unique(arr1,arr2))

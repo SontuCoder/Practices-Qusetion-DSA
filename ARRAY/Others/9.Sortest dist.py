@@ -11,12 +11,12 @@ def sort_dist(arr,a,b):
             var=a
             global_dist=min(global_dist,cur_dist)
             cur_dist=0
-        if(arr[i]==b and var==a):
+        elif(arr[i]==b and var==a):
             var=b
             global_dist=min(global_dist,cur_dist)
             cur_dist=0
         cur_dist+=1
     return global_dist
 
-arr=[2,1,3,5,2,5,66,5,3,3,1,2,4,3]
-print(sort_dist(arr,2,3))
+arr=[2,1,3,5,5,66,5,3,3,1,4,3]
+print(sort_dist(arr,3,2))

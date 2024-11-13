@@ -13,6 +13,5 @@ def moores(arr):
             count=1
     return arr[maj_index]
 
-arr=[3,3,3,1,3,5,4,3,2]
-
+arr=[3,3,3,4,4,4,3,5,3]
 print(moores(arr))

@@ -1,3 +1,4 @@
+
 def merge_palindrom(arr):
     ans=0
     i=0

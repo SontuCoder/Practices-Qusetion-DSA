@@ -1,8 +1,8 @@
 # in:- [1,4,2,4,6,5],3
 #Op:- [1,2]
-# TWO methods take O(n) time.
 
-# def pair(arr,x):
+
+# def pair(arr,x): #take O(n) time.
 #     s=set()
 #     for i in arr:
 #         temp= x-i
@@ -11,6 +11,7 @@
 #         else:
 #             s.add(i)
 #     return False
+
 
 def pair(arr,x):
     s=[0]*100

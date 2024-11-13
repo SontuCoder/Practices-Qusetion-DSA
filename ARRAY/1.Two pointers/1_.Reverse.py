@@ -7,5 +7,8 @@ def reverse(arr):
         j-=1
     return arr
 
+def rever(arr):
+    return arr[::-1]
+
 arr=[74,5,3,2,7,3,2]
-print(reverse(arr))
+print(rever(arr))

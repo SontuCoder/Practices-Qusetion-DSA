@@ -23,13 +23,13 @@ def water(arr):
     for i in range(max_height):
         if(arr[left_max]<arr[i]):
             left_max = i
-        sum_water += min(arr[left_max],arr[max_height]) - arr[i]
+        sum_water += arr[left_max] - arr[i]
         
     right_max = len(arr)-1
     for i in range(len(arr)-1,max_height,-1):
         if(arr[right_max]<arr[i]):
             right_max = i
-        sum_water += min(arr[right_max],arr[max_height]) - arr[i]
+        sum_water += arr[right_max] - arr[i]
     return sum_water
 
 arr = [0,1,0,2,1,0,1,3,2,1,2,1]

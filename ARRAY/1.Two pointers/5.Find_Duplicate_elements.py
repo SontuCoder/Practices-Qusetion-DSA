@@ -1,4 +1,4 @@
-# find duplicate elements in O(n) time and O(1) space.
+# find duplicate elements in O(n+m) time and O(1) space.
 # Array contains elements from 0 to n-1.
 #IO: [1,2,3,1,3,6,6] => [1,3,6]
 

@@ -13,7 +13,6 @@ def inc_Bit(arr):
         else:
             j=1
             a.append(j)
-    print(a)
     return a
 
 def dec_Bit(arr):
@@ -27,7 +26,6 @@ def dec_Bit(arr):
         else:
             j=1
             a.insert(0,j)
-    print(a)
     return a
 
 

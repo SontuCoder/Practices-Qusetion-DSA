@@ -9,8 +9,7 @@ def buy_sell(arr):
     max_profit=0
     while(j<len(arr)):
         if(arr[i]<arr[j]):
-            profit=arr[j]-arr[i]
-            max_profit=max(max_profit, profit)
+            max_profit=max(max_profit, arr[j]-arr[i])
         else:
             i+=1
         j+=1
