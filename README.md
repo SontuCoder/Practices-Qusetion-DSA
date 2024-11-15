@@ -25,6 +25,7 @@
 <p>This problem can be classified into the following types:</p>
 <ul>
         <li>Array</li>
+        <li>2D Array</li>
         <li>String</li>
         <li>Btree</li>
         <li>Leet Code top 150 Interview</li>

@@ -15,8 +15,7 @@ def Binary_Search(arr,element):
             start = mid+1
         else:
             return "Found" 
-        mid = start+(end-start)//2
     return "Not Found"
 
-arr = [[1]]
-print(Binary_Search(arr,1))
+arr = [[1,2,3],[4,5,6],[7,8,9]]
+print(Binary_Search(arr,9))

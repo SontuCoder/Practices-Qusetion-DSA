@@ -4,7 +4,6 @@ def merge_palindrom(arr):
     i=0
     j=len(arr)-1
     while(i<=j):
-        print(arr)
         if(arr[i]==arr[j]):
             i+=1
             j-=1
@@ -16,7 +15,6 @@ def merge_palindrom(arr):
             i+=1
             arr[i]+=arr[i-1]
             ans+=1
-    print(arr)
     return ans
 
 
