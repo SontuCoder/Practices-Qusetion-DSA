@@ -30,6 +30,7 @@
         <li>Btree</li>
         <li>Leet Code top 150 Interview</li>
         <li>Accenture campus Placement</li>
+        <li>Tech Mahindra campas Placement</li>
     </ul>
 </body>
 </html>
